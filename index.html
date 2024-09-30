@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TODO App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
-    
 <body>
-    <h1>TO DO LIST</h1>
-    <div>
-        <input type="text" placeholder="Enter your task">
-        <button>ADD</button>
+    <div class="container">
+        <h1>MY TODO LIST</h1>
+        <div>
+            <input type="text" placeholder="Enter your task">
+            <button>ADD</button>
+        </div>
+        <h2>My Tasks</h2>
+        <ul>
+            <li>
+                <input type="checkbox" value="Buy tomatoes"> Buy tomatoes
+            </li>
+            <li>
+                <input type="checkbox" value="Study math"> Study math
+            </li>
+            <li>
+                <input type="checkbox" value="Finish presentation"> Finish presentation
+            </li>
+        </ul>
+        <hr>
+        <p><b>Completed: 0</b> | <b>Uncompleted: 0</b></p>
     </div>
-    <h2>MY TASKS</h2>
-    <ul>
-        <li>
-            <input type="checkbox" value="Buy tomatoes">Buy tomatoes
-        </li>
-        <li>
-            <input type="checkbox" value="Buy tomatoes">Study math
-        </li>
-        <li>
-            <input type="checkbox" value="Buy tomatoes">Finish presentation
-        </li>
-    </ul>
-    <hr>
-    <p><b>completed:0</b>|<b>uncompleted:0</b></p>
 </body>
 </html>
